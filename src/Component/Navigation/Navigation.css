@@ -78,7 +78,10 @@
 
     .logo img{
         width: 100%;
-        /* height: 0px; */
+    }
+
+    .all{
+        height: 100%;
     }
 
     .kim{
