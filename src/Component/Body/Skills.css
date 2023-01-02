@@ -88,12 +88,12 @@
         height: 100%;
     }
     .experience_container1{
-        gap: 1rem;
+        gap: 1rm;
     }
 
     .experience_container1 > div{
         width: 100%;
-        padding: 2rem 1rem;
+        padding: 2rem 0;
     }
 }
 
@@ -110,7 +110,7 @@
 
     .experience_container1{
         margin: 0; 
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .experience_details{

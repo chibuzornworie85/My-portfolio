@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Navigation.css";
 import gewin from "../../Component/Image/Gewin1.png";
 import { pro, pro1, pro2, pro3, pro4, pro5 } from "../../Data";
-import { render } from "@testing-library/react";
+// import { render } from "@testing-library/react";
 
 class Navigation extends Component {
   state = { clicked: false };

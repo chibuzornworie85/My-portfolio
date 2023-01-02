@@ -68,24 +68,17 @@ html{
 
 @media screen and (max-width: 600px) {
     .label{
-        margin-left: 10%;
+        margin-left: 0;
+        width: 100%;
     }
 
-    .input,
-.input1{
-    width: 20rem;
-}
-
-.input2{
-    width: 20rem;
-}
+    .input , .input1, .input2{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 280px) {
     .label{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
         width: 100%;
         margin-left: 0;
     }
