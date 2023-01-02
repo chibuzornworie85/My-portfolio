@@ -47,7 +47,7 @@ const Intro = () => {
           </a>
           </div>
         <div className="what">
-        <a href="#" target="_blank">
+        <a href="https://web.whatsapp.com/" target="_blank">
             <BsWhatsapp />
           </a>
         </div>
