@@ -5,7 +5,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import { BsYoutube } from "react-icons/bs";
-import CV from "../../../src/Document/Jr Software Engineer.pdf";
+import CV from "../../../src/Document/Gewin_CV.pdf";
 
 const Intro = () => {
   return (
