@@ -11,7 +11,7 @@ const Blog = () => {
   return (
     <>
     <div id= 'project' className='port'>
-    <h2>Portfolio</h2>
+    <h2 className='jos1'>Portfolio</h2>
     <div className="portfolio_container">
       <article className='portfolio_item'>
         <div className="portfoili_item-image">
@@ -27,7 +27,7 @@ const Blog = () => {
         <div className="portfoili_item-image">
           <img src={mage2} alt="yh" className='my' />
         </div>
-        <h3>This return the bleed type which you select</h3>
+        <h3>This return the breed type which you select</h3>
         <div className='git'>
         <a href="https://github.com/chibuzornworie85/Bleed-of-Dogs" className='bt' target="_blank">GitHub</a>
         <a href="https://bleed-of-dogs.vercel.app/" target="_blank" className='bt-primary'>Live Demo</a>
@@ -57,7 +57,7 @@ const Blog = () => {
         <div className="portfoili_item-image">
           <img src={mage5} alt="yh" className='my' />
         </div>
-        <h3>First react project</h3>
+        <h3>First React project</h3>
         <div className='git'>
         <a href="https://github.com/chibuzornworie85/My-Project" className='bt' target="_blank">GitHub</a>
         <a href="https://my-project-theta-rosy.vercel.app/" target="_blank" className='bt-primary'>Live Demo</a>

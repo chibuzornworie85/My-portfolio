@@ -37,6 +37,10 @@
     font-size: 15px;
     line-height: 20px;
   }
+
+  .page2, .mik{
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 280px) {

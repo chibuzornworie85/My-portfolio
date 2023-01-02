@@ -43,34 +43,6 @@ const Service = () => {
             </li>
           </ul>
         </article>
-
-        <article className='service'>
-          <div className="service_head">
-            <h3>Content Creation</h3>
-          </div>
-          <ul className='service_list'>
-            <li> 
-              <BiCheck className='service_list_icon' />
-              <p>Search optimization.</p>
-            </li>
-            <li> 
-              <BiCheck className='service_list_icon' />
-              <p>Blogs.</p>
-            </li>
-            <li> 
-              <BiCheck className='service_list_icon' />
-              <p>Website.</p>
-            </li>
-            <li> 
-              <BiCheck className='service_list_icon' />
-              <p>Marketing and promotion materials to emails.</p>
-            </li>
-            <li> 
-              <BiCheck className='service_list_icon' />
-              <p>Updating content for everything from brochures.</p>
-            </li>
-          </ul>
-        </article>
       </div>
     </div>
     </>

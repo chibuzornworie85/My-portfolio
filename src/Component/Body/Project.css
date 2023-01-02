@@ -74,6 +74,14 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+
+    .jos1{
+        font-size: 25px;
+    }
+
+    .portfolio_item h3{
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 600px) {

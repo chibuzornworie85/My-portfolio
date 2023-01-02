@@ -95,6 +95,18 @@
         width: 100%;
         padding: 2rem 0;
     }
+
+    .exper{
+        font-size: 20px;
+    }
+
+    .front{
+        font-size: 15px;
+    }
+
+    .experience_content h4{
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 667px) {
