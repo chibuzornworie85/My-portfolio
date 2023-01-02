@@ -20,7 +20,7 @@ const Blog = () => {
         <h3>Personal portfolio</h3>
         <div className='git'>
         <a href="https://github.com/chibuzornworie85/-My-Portfolio" className='bt' target="_blank">GitHub</a>
-        <a href="https://my-portfolio-mu-rouge.vercel.app/" target="_blank" className='bt-primary'>Live Demo</a>
+        <a href="https://my-portfolio-git-master-chibuzornworie85.vercel.app/" target="_blank" className='bt-primary'>Live Demo</a>
         </div>
       </article>
       <article className='portfolio_item'>
