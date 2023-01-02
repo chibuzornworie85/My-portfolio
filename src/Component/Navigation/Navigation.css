@@ -1,0 +1,120 @@
+.all{
+    background-color: rgb(23, 23, 36);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 100px;
+}
+
+.logo img{
+   height: 50px;
+   width: 130px;
+   object-fit: cover;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    padding-top: 25px;
+    align-items: center;
+}
+
+.navi ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.navi .line{
+    color: white;
+    text-decoration: none;
+}
+
+.kim a{
+    text-decoration: none;
+    color: mediumslateblue;
+}
+
+.kim a:hover{
+    color: lightblue;
+    text-decoration: underline;
+}
+
+#mobile{
+    display: none;
+}
+
+#mobile i{
+    color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav{
+        padding: 20px 0 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navi ul{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 90px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background:  rgb(23, 23, 36);
+        box-shadow: 0 40px 60px rgb(0, 0, 0.1);
+        padding: 40px 0 0 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .kim{
+        margin-bottom: 30px;
+    }
+
+    .navi .active{
+        right: 0px;
+    }
+
+    #mobile{
+        display: block;
+    }
+
+    #mobile i{
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .navi ul{
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .navi ul{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 90px;
+        right: -300px;
+        width: 150px;
+        height: 100vh;
+        background:  rgb(23, 23, 36);
+        box-shadow: 0 40px 60px rgb(0, 0, 0.1);
+        padding: 40px 0 0 10px;
+        transition: 0.3s ease-in-out;
+    }
+}

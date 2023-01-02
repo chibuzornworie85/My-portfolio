@@ -1,0 +1,41 @@
+.page{
+    background-color: rgb(23, 23, 36);
+    color:  #fff;
+    text-align: center;
+    padding: 15%;
+    overflow-x: hidden;
+}
+
+.page1{
+    padding: 30px;
+    font-size: 25px;
+}
+
+.mik{
+    color:  mediumslateblue;
+    font-size: 25px;
+}
+
+.page2{
+    padding: 10px;
+    font-size: 25px;
+    color:  mediumslateblue;
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 600px) {
+  .page{
+    padding: 0px;
+    font-size: 0;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .page1{
+    height: 100%;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,96 @@
+.al{
+    background-color: rgb(23, 23, 36);
+}
+
+.h1{
+    color:  mediumslateblue;
+    text-align: center;
+    padding-top: 50px;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.label{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 33%;
+}
+
+.input,
+.input1{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 29px;
+}
+
+.input2{
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    font-size: 29px;
+}
+
+.nam{
+    color: white;
+    font-size: 30px;
+    padding:  10px 0;
+}
+
+.input3{
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(23, 23, 36);
+    border: 3px solid mediumslateblue;
+    color: white;
+    font-size: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.copy{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 600px) {
+    .label{
+        margin-left: 10%;
+    }
+
+    .input,
+.input1{
+    width: 20rem;
+}
+
+.input2{
+    width: 20rem;
+}
+}
+
+@media screen and (max-width: 280px) {
+    .label{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .input , .input1, .input2{
+        width: 100%;
+    }
+}

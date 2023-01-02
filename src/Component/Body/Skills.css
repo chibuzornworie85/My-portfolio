@@ -1,0 +1,120 @@
+.general{
+    background:  rgb(23, 23, 36);
+    color: #fff;
+    height: 100vh;
+    padding: 120px 0 0;
+}
+
+.exper{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    font-family: monospace;
+    font-size: 30px;
+    color:  mediumslateblue;
+}
+
+.experience_container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 5%; 
+    gap: 2rem;
+}
+
+.experience_container1 > div{
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid  mediumslateblue;
+    transition: var(--transition);
+}
+
+.experience_container1 > div:hover{
+    background: mediumslateblue;
+    cursor: pointer;
+}
+
+.experience_container1 > div:hover .front{
+    color: rgb(25, 20, 51);
+}
+
+.front{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-family: monospace;
+    font-size: 20px;
+    color: mediumslateblue;
+}
+
+.experience_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.experience_details{
+    display: flex;
+    gap: 1rem;
+}
+
+.icons{
+    margin-top: 6px;
+    color: mediumslateblue;
+}
+
+.experience_container1 > div:hover .icons{
+    color: rgb(25, 20, 51);
+}
+
+@media screen and (max-width: 1024px) {
+    .experience_container1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .experience_container1 > div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;       
+    }
+
+    .experience_content{
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .general{
+        height: 100%;
+    }
+    .experience_container1{
+        gap: 1rem;
+    }
+
+    .experience_container1 > div{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 667px) {
+   .general{
+    height: 100%;
+   }
+}
+
+@media screen and (max-width: 280px) {
+    .experience_container1 > div{
+        padding: 0;
+    }
+
+    .experience_container1{
+        margin: 0; 
+        gap: 2rem;
+    }
+
+    .experience_details{
+        display: flex;
+        gap: 1px;
+    }
+}

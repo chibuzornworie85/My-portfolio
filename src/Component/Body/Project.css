@@ -1,0 +1,84 @@
+.port{
+    background:  rgb(23, 23, 36);
+}
+.portfolio_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    margin: 0 5%;
+}
+
+.portfoili_item-image .my{
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio_item{
+    background:  rgb(23, 23, 36);
+    border: 1px solid  mediumslateblue;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+
+.portfolio_item:hover{
+    background: mediumslateblue;
+    cursor: pointer;
+}
+
+.port h2{
+    display: flex;
+    justify-content: center;
+    color: mediumslateblue;
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+
+.portfolio_item h3{
+    color: #fff;
+    padding: 10px 0 20px;
+    font-size: 20px;
+}
+
+.bt{
+    border: 1px solid mediumslateblue;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background:  rgb(23, 23, 36);
+}
+
+.bt-primary{
+    border: 1px solid mediumslateblue;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    background: mediumslateblue;
+    color: #fff;
+    border: 1px solid rgb(23, 23, 36);
+}
+
+.portfoili_item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.git{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .portfolio_container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .portfolio_container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

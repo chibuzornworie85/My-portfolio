@@ -1,0 +1,89 @@
+.services_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 5%;
+    gap: 3rem;
+}
+
+.serve h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    margin-bottom: 50px;
+    color: mediumslateblue;
+}
+
+.service{
+    border-radius: 0 0 2rem;
+    background:  rgb(25, 20, 51);
+    border: 1px solid mediumslateblue;
+    height: fit-content;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.service:hover{
+    background: mediumslateblue;
+}
+
+.serve{
+    color: white;
+    background:  rgb(23, 23, 36);
+}
+
+.service_head{
+    background: mediumslateblue;
+    padding: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 2rem 1rem  rgb(25, 20, 51);
+}
+
+.service_head h3{
+    color:  rgb(25, 20, 51);
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+}
+
+.service_list{
+    padding: 2rem;
+}
+
+.service_list li{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.service_list_icon{
+    margin-top: 2px;
+    color:  mediumslateblue;
+}
+
+.service:hover .service_list_icon{
+    color: rgb(25, 20, 51);
+}
+
+li{
+    list-style: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .services_container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .service{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .services_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
