@@ -38,7 +38,7 @@ const Service = () => {
               <p>Web programming.</p>
             </li>
             <li> 
-              <BiCheck className='service_list_icon' />
+              <BiCheck className='service_list_icon1' />
               <p>Creating a site's architecture, designing its layout and user interface, and coding it to work correctly.</p>
             </li>
           </ul>

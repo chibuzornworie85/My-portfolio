@@ -58,9 +58,19 @@
 .service_list_icon{
     margin-top: 2px;
     color:  mediumslateblue;
+    font-size: 15px;
+}
+
+.service_list_icon1{
+    margin-top: 2px;
+    color:  mediumslateblue;
 }
 
 .service:hover .service_list_icon{
+    color: rgb(25, 20, 51);
+}
+
+.service:hover .service_list_icon1{
     color: rgb(25, 20, 51);
 }
 
@@ -85,5 +95,11 @@ li{
         display: grid;
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+
+    .service_list_icon1{
+        margin-top: 2px;
+        color:  mediumslateblue;
+        font-size: 45px;
     }
 }
