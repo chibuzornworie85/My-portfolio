@@ -30,7 +30,7 @@ const Blog = () => {
         <h3>This return the breed type which you select</h3>
         <div className='git'>
         <a href="https://github.com/chibuzornworie85/Bleed-of-Dogs" className='bt' target="_blank">GitHub</a>
-        <a href="https://bleed-of-dogs.vercel.app/" target="_blank" className='bt-primary'>Live Demo</a>
+        <a href="https://breed-of-dogs.vercel.app/" target="_blank" className='bt-primary'>Live Demo</a>
         </div>
       </article>
       <article className='portfolio_item'>
@@ -47,10 +47,10 @@ const Blog = () => {
         <div className="portfoili_item-image">
           <img src={mage4} alt="yh" className='my' />
         </div>
-        <h3>Bootstrap landing page</h3>
+        <h3>React landing page</h3>
         <div className='git'>
-        <a href="https://github.com/chibuzornworie85/Bootstrap" className='bt' target="_blank">GitHub</a>
-        <a href="https://bootstrap-drab.vercel.app/" target="_blank" className='bt-primary'>Live Demo</a>
+        <a href="https://github.com/chibuzornworie85/Landing-page" className='bt' target="_blank">GitHub</a>
+        <a href="https://landing-page-rosy-one.vercel.app/" target="_blank" className='bt-primary'>Live Demo</a>
         </div>
       </article>
       <article className='portfolio_item'>
