@@ -8,6 +8,7 @@ import mage5 from '../../Component/Image/lap-image.jpeg'
 import mage6 from '../../Component/Image/image.jpg'
 
 const Blog = () => {
+  
   return (
     <>
     <div id= 'project' className='port'>
