@@ -17,8 +17,10 @@ const Intro = () => {
           </div>
           <div className="text">
             <p className="tex">Hello There!</p>
+            <marquee>
             <h4 className="h4">I'M PRINCE GEWIN</h4>
             <p className="full">SOFTWARE ENGINEER</p>
+            </marquee>
             <a
               href="https://mail.google.com/mail/u/0/#inbox"
               className="no"
