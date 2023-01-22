@@ -49,7 +49,7 @@ const Intro = () => {
           </a>
           </div>
         <div className="what">
-        <a href="https://web.whatsapp.com/" target="_blank">
+        <a href="https://wa.me/+2349135997163" target="_blank">
             <BsWhatsapp />
           </a>
         </div>
