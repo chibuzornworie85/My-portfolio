@@ -5,7 +5,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import { BsYoutube } from "react-icons/bs";
-import CV from "../../../src/Document/Gewin_CV.pdf";
+import CV from "../../../src/Document/Chibuzor_CV.pdf";
 
 const Intro = () => {
   return (
@@ -30,7 +30,7 @@ const Intro = () => {
             </a>
             <p className="num">+234 913 599 7163</p>
             <button className="cv">
-              <a href={CV} download="Gewin_CV" className="cv1">
+              <a href={CV} download="Chibuzor_CV.pdf" className="cv1">
                 Download CV
               </a>
             </button>
