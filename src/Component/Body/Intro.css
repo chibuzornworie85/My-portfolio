@@ -1,150 +1,152 @@
-.all1{
-    background-color: rgb(23, 23, 36);
-    color: white;
-    padding-left: 25px;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.all1 {
+  background-color: rgb(23, 23, 36);
+  color: white;
+  padding-left: 25px;
 }
 
-.body img{
-    height: 30rem;
-    padding-top: 20px;
-    object-fit: cover;
+.body img {
+  height: 30rem;
+  padding-top: 20px;
+  object-fit: cover;
 }
 
-.body{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 30px;
+.body {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
 }
 
-.text{
-    margin-top: 15%;
+.text {
+  margin-top: 15%;
 }
 
-.text a{
-    color: white;
-    padding: 5px;
+.text a {
+  color: white;
+  padding: 5px;
 }
 
-.cv{
-    height: 40px;
-    width: 50%;
-    background: none;
-    margin-top: 10px;
-    border: 2px solid mediumslateblue;
-    border-radius: 5px;
-    font-size: 15px;
+.cv {
+  height: 40px;
+  width: 50%;
+  background: none;
+  margin-top: 10px;
+  border: 2px solid mediumslateblue;
+  border-radius: 5px;
+  font-size: 15px;
 }
 
-.cv1{
-    text-decoration: none;
+.cv1 {
+  text-decoration: none;
 }
 
-.tex{
-    font-size: 30px;
-    background-color:  mediumslateblue;
-    border-radius: 10px;
-    width: 10rem;
-    height: 50px;
-    text-align: center;
-    padding-top: 10px;
+.tex {
+  font-size: 30px;
+  background-color: mediumslateblue;
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
 }
 
-.h4{
-    font-size: 35px;
-    font-family: monospace;
-    padding: 5px;
+.h4 {
+  font-size: 35px;
+  font-family: monospace;
+  padding: 5px;
 }
 
-.full{
-    font-size: 30px;
-    padding: 8px;
+.full {
+  font-size: 30px;
+  padding: 8px;
 }
 
-.num{
-    font-size: 20px;
-    padding: 5px;
+.num {
+  font-size: 20px;
+  padding: 5px;
 }
 
-.images{
-    display: flex;
-    gap: 30px;
-    margin-left: 25px;
-    margin-top: 20px;
+.images {
+  display: flex;
+  gap: 30px;
+  margin-left: 25px;
+  margin-top: 20px;
 }
 
-.lin a{
-    color: #fff;
+.lin a {
+  color: #fff;
 }
 
-.twit a{
-    color: blue;
+.twit a {
+  color: blue;
 }
 
-.what a{
-    color: green;
+.what a {
+  color: green;
 }
 
-.you{
-    color: red; 
+.you {
+  color: red;
 }
 
 @media screen and (max-width: 1024px) {
-    .body{
-        padding: 0 0px;
-    }
+  .body {
+    padding: 0 0px;
+  }
 
-    .body{
-        gap: 10%;
-        padding: 0 0px;
-    }
+  .body {
+    gap: 10%;
+    padding: 0 0px;
+  }
 
-    .body img{
-        width: 100%;
-    }
+  .body img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .all1{
-        padding-left: 0;
-    }
+  .all1 {
+    padding-left: 0;
+  }
 
-    .body{
-        flex-direction: column-reverse;
-    }
+  .body {
+    flex-direction: column-reverse;
+  }
 
-    .body img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+  .body img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
-    .images{
-        display: flex;
-        justify-content: center;
-        gap: 30px;
-        margin-left: 0px;
-    }
+  .images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 0px;
+  }
 
-    .tex{
-        font-size: 20px;
-        width: 50%;
-        height: 50px;
-        padding-top: 15px;
-    }
+  .tex {
+    font-size: 20px;
+    width: 50%;
+    height: 50px;
+    padding-top: 15px;
+  }
 
-    .h4{
-        font-size: 25px;
-        font-family: monospace;
-        padding: 5px;
-    }
-    
-    .full{
-        font-size: 20px;
-        padding: 8px;
-    }
+  .h4 {
+    font-size: 25px;
+    font-family: monospace;
+    padding: 5px;
+  }
 
-    .text{
-        margin-top: 20px;
-        margin-left: 15px;
-    }
+  .full {
+    font-size: 20px;
+    padding: 8px;
+  }
+
+  .text {
+    margin-top: 20px;
+    margin-left: 15px;
+  }
 }

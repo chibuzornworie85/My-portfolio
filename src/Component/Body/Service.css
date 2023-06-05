@@ -1,105 +1,107 @@
-.services_container{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin: 0 5%;
-    gap: 3rem;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.services_container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 0 5%;
+  gap: 3rem;
 }
 
-.serve h2{
-    display: flex;
-    justify-content: center;
-    padding-top: 150px;
-    margin-bottom: 50px;
-    color: mediumslateblue;
+.serve h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  margin-bottom: 50px;
+  color: mediumslateblue;
 }
 
-.service{
-    border-radius: 0 0 2rem;
-    background:  rgb(25, 20, 51);
-    border: 1px solid mediumslateblue;
-    height: fit-content;
-    transition: var(--transition);
-    cursor: pointer;
+.service {
+  border-radius: 0 0 2rem;
+  background: rgb(25, 20, 51);
+  border: 1px solid mediumslateblue;
+  height: fit-content;
+  transition: var(--transition);
+  cursor: pointer;
 }
 
-.service:hover{
-    background: mediumslateblue;
+.service:hover {
+  background: mediumslateblue;
 }
 
-.serve{
-    color: white;
-    background:  rgb(23, 23, 36);
+.serve {
+  color: white;
+  background: rgb(23, 23, 36);
 }
 
-.service_head{
-    background: mediumslateblue;
-    padding: 2rem;
-    border-radius: 0 0 2rem 2rem;
-    box-shadow: 0 2rem 1rem  rgb(25, 20, 51);
+.service_head {
+  background: mediumslateblue;
+  padding: 2rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgb(25, 20, 51);
 }
 
-.service_head h3{
-    color:  rgb(25, 20, 51);
-    font-size: 20px;
-    font-family: monospace;
-    text-align: center;
+.service_head h3 {
+  color: rgb(25, 20, 51);
+  font-size: 20px;
+  font-family: monospace;
+  text-align: center;
 }
 
-.service_list{
-    padding: 2rem;
+.service_list {
+  padding: 2rem;
 }
 
-.service_list li{
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 0.8rem;
+.service_list li {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
 }
 
-.service_list_icon{
-    margin-top: 2px;
-    color:  mediumslateblue;
-    font-size: 15px;
+.service_list_icon {
+  margin-top: 2px;
+  color: mediumslateblue;
+  font-size: 15px;
 }
 
-.service_list_icon1{
-    margin-top: 2px;
-    color:  mediumslateblue;
+.service_list_icon1 {
+  margin-top: 2px;
+  color: mediumslateblue;
 }
 
-.service:hover .service_list_icon{
-    color: rgb(25, 20, 51);
+.service:hover .service_list_icon {
+  color: rgb(25, 20, 51);
 }
 
-.service:hover .service_list_icon1{
-    color: rgb(25, 20, 51);
+.service:hover .service_list_icon1 {
+  color: rgb(25, 20, 51);
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
 @media screen and (max-width: 1024px) {
-    .services_container{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 2rem;
-    }
+  .services_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
 
-    .service{
-        height: auto;
-    }
+  .service {
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .services_container{
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-    }
+  .services_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 
-    .service_list_icon1{
-        margin-top: 2px;
-        color:  mediumslateblue;
-        font-size: 50px;
-    }
+  .service_list_icon1 {
+    margin-top: 2px;
+    color: mediumslateblue;
+    font-size: 50px;
+  }
 }

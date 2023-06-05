@@ -1,128 +1,130 @@
-.all{
-    background-color: rgb(23, 23, 36);
-    color: white;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    height: 100px;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.all {
+  background-color: rgb(23, 23, 36);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 100px;
 }
 
-.logo img{
-   height: 50px;
-   width: 130px;
-   object-fit: cover;
+.logo img {
+  height: 50px;
+  width: 130px;
+  object-fit: cover;
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 30px;
-    padding-top: 25px;
-    align-items: center;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  padding-top: 25px;
+  align-items: center;
 }
 
-.navi ul{
-    display: flex;
-    gap: 30px;
-    list-style: none;
-    cursor: pointer;
-    font-size: 25px;
+.navi ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  cursor: pointer;
+  font-size: 25px;
 }
 
-.navi .line{
-    color: white;
-    text-decoration: none;
+.navi .line {
+  color: white;
+  text-decoration: none;
 }
 
-.kim a{
-    text-decoration: none;
-    color: mediumslateblue;
+.kim a {
+  text-decoration: none;
+  color: mediumslateblue;
 }
 
-.kim a:hover{
-    color: lightblue;
-    text-decoration: underline;
+.kim a:hover {
+  color: lightblue;
+  text-decoration: underline;
 }
 
-#mobile{
-    display: none;
+#mobile {
+  display: none;
 }
 
-#mobile i{
-    color: #fff;
+#mobile i {
+  color: #fff;
 }
 
 @media screen and (max-width: 1024px) {
-    .nav{
-        padding: 20px 0 0;
-    }
+  .nav {
+    padding: 10px 0 5px 5px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .navi ul{
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-        align-items: center;
-        justify-content: flex-start;
-        position: fixed;
-        top: 70px;
-        right: -300px;
-        width: 200px;
-        height: 100vh;
-        background:  rgb(23, 23, 36);
-        box-shadow: 0 40px 60px rgb(0, 0, 0.1);
-        padding: 40px 0 0 10px;
-        transition: 0.3s ease-in-out;
-    }
+  .navi ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top: 70px;
+    right: -300px;
+    width: 200px;
+    height: 100vh;
+    background: rgb(23, 23, 36);
+    box-shadow: 0 40px 60px rgb(0, 0, 0.1);
+    padding: 40px 0 0 10px;
+    transition: 0.3s ease-in-out;
+  }
 
-    .logo img{
-        width: 100%;
-    }
+  .logo img {
+    width: 100%;
+  }
 
-    .all{
-        height: 100%;
-    }
+  .all {
+    height: 100%;
+  }
 
-    .kim{
-        margin-bottom: 30px;
-    }
+  .kim {
+    margin-bottom: 30px;
+  }
 
-    .navi .active{
-        right: 0px;
-    }
+  .navi .active {
+    right: 0px;
+  }
 
-    #mobile{
-        display: block;
-    }
+  #mobile {
+    display: block;
+  }
 
-    #mobile i{
-        font-size: 30px;
-        cursor: pointer;
-    }
+  #mobile i {
+    font-size: 30px;
+    cursor: pointer;
+  }
 }
 
 @media screen and (max-width: 667px) {
-    .navi ul{
-        gap: 15px;
-    }
+  .navi ul {
+    gap: 0px;
+  }
 }
 
 @media screen and (max-width: 280px) {
-    .navi ul{
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-        align-items: center;
-        justify-content: flex-start;
-        position: fixed;
-        top: 90px;
-        right: -300px;
-        width: 150px;
-        height: 100vh;
-        background:  rgb(23, 23, 36);
-        box-shadow: 0 40px 60px rgb(0, 0, 0.1);
-        padding: 40px 0 0 10px;
-        transition: 0.3s ease-in-out;
-    }
+  .navi ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top: 90px;
+    right: -300px;
+    width: 150px;
+    height: 100vh;
+    background: rgb(23, 23, 36);
+    box-shadow: 0 40px 60px rgb(0, 0, 0.1);
+    padding: 40px 0 0 10px;
+    transition: 0.3s ease-in-out;
+  }
 }

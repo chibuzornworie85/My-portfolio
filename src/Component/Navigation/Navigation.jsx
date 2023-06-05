@@ -6,19 +6,19 @@ import { pro, pro1, pro2, pro3, pro4, pro5 } from "../../Data";
 
 class Navigation extends Component {
   state = { clicked: false };
-  handleClick = () =>{
-    this.setState({clicked: !this.state.clicked})
-  }
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked });
+  };
   render() {
     return (
       <>
-        <div className="all">
+        <div style={{ fontFamily: "Montserrat" }} className="all">
           <div className="nav">
             <div className="logo">
               <img src={gewin} alt="gewin" />
             </div>
             <div className="navi">
-              <ul className={this.state.clicked ? "navi active" :  "navi"}>
+              <ul className={this.state.clicked ? "navi active" : "navi"}>
                 <div className="kim">
                   {pro.map((link) => {
                     return (
